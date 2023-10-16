@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Diagnosing Disorders - Test</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="icon.png">
+
+
+  <style>
+    html,
+    body {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    div {
+      height: 100%;
+    }
+
+
+    body {
+      font-family: Tahoma, Verdana, sans-serif;
+      colour: white;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Tahoma";
+      letter-spacing: 0px;
+      color: white;
+    }
+
+
+
+
+
+    img {
+      width: 300px;
+      height: 250px;
+    }
+
+
+
+
+
+    body {
+      cursor: url(cursor2.png), auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .button {
+      align-self: center;
+      background-color: #fff;
+      background-image: none;
+      background-position: 0 90%;
+      background-repeat: repeat no-repeat;
+      background-size: 4px 3px;
+      border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+      border-style: solid;
+      border-width: 2px;
+      box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+      box-sizing: border-box;
+      color: #41403e;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Neucha, sans-serif;
+      font-size: 1rem;
+      line-height: 23px;
+      outline: none;
+      padding: .75rem;
+      text-decoration: none;
+      transition: all 235ms ease-in-out;
+      border-bottom-left-radius: 15px 255px;
+      border-bottom-right-radius: 225px 15px;
+      border-top-left-radius: 255px 15px;
+      border-top-right-radius: 15px 225px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    .button:hover {
+      box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+      transform: translate3d(0, 2px, 0);
+    }
+
+    .button:focus {
+      box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="start" class="step" data-x="-1000" data-y="-1500">
+    <center>
+      <h1>Want to know what symptoms are result of certain disorders?</h1>
+      <br><br><br><br><br><br><br><br><br>
+      <button class="button" role="button">
+        <a href="#taketest" style="font-size:100px">Start</a>
+      </button>
+  </div>
+  </center>
+  </div>
+
+
+
+
+
+
+
+  <div id="taketest" class="step" data-x="0" data-y="-1500">
+    <center>
+      <h1>Choose a Symptom</h1>
+      <img
+        src="https://previews.123rf.com/images/irfanfirdaus/irfanfirdaus1912/irfanfirdaus191200069/136379568-depression-symptoms-loss-of-interest-loss-of-interest-in-hobbies-sports-and-other-enjoyable-or.jpg"
+        width="400" height="250">
+      <img src="https://thestatetimes.com/wp-content/uploads/2022/10/common-sleep-disorders.png" width="400"
+        height="250">
+      <br><br>
+      <button class="button" role="button"> <a href="#activites">Loss of interest in hobbies or activites</a> </button>
+      <button class="button" role="button"> <a href="#sleep">Sleep problems</a> </button>
+      <button class="button" role="button"> <a href="#none">None</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="activites" class="step" data-x="0" data-y="-1500" data-z="1500">
+    <center>
+      <h1>Choose a Symptom</h1>
+      <img src="https://www.nami.org/NAMI/media/NAMI-Media/BlogImageArchive/2020/hallucinations-blog.jpeg" width="200"
+        height="125">
+      <img src="https://www.techexplorist.com/wp-content/uploads/2019/03/negative-emotions.jpg" width="200"
+        height="125">
+
+      <img src="https://cdn-icons-png.flaticon.com/128/9071/9071754.png" width="200" height="125">
+      <br><br>
+      <button class="button" role="button"> <a href="#Hallucinations">Delusions/Hallucinations</a> </button>
+      <button class="button" role="button"> <a href="#NegativeEmotions">Ongoing negative emotions(e.g. fear,
+          sadness)</a> </button>
+      <button class="button" role="button"> <a href="#Suicide">Suicidal thoughts</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="Hallucinations" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>Choose a Symptom</h1>
+
+      <img src="https://testzius.files.wordpress.com/2017/01/disorganized-thinking.png" width="200" height="125">
+      <img src="https://i.natgeofe.com/n/671ea18d-3185-42a9-8e64-a8470befbe11/01-turtle-day-photo-ark_2x1.jpg"
+        width="200" height="125">
+      <br><br>
+      <button class="button" role="button"> <a href="#Disordered">Both</a> </button>
+      <button class="button" role="button"> <a href="#Slowmovements">Disordered thinking</a> </button>
+      <button class="button" role="button"> <a href="#Slowmovements">Slow movements</a> </button>
+      <button class="button" role="button"> <a href="#None">None</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="Disordered" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>All of the symptoms chosen are common symptoms of Schizophrenia</h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbLKqMIWRX3SS-zNmBDlgJvSGxTmIfa4PaKQ&usqp=CAU"
+        width="200" height="125">
+      <br><br>
+      Schizophrenia is a serious mental disorder in which people interpret reality abnormally.
+      People with schizophrenia require lifelong treatment. Early treatment may help get symptomsunder control before
+      serious complications develop and may help improve the long-term outlook.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="Slowmovements" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>These are many common symptoms of Schizophrenia</h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbLKqMIWRX3SS-zNmBDlgJvSGxTmIfa4PaKQ&usqp=CAU"
+        width="200" height="125">
+      <br><br>
+      Schizophrenia is a serious mental disorder in which people interpret reality abnormally.
+      People with schizophrenia require lifelong treatment. Early treatment may help get symptomsunder control before
+      serious complications develop and may help improve the long-term outlook.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div id="None" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>No disorder can be confirmed</h1>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="NegativeEmotions" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <br><br>
+    <center>
+      <h1>Choose a Symptom</h1>
+      <img src="https://mooditude.app/wp-content/uploads/2022/07/ptsd.jpeg" width="200" height="125">
+      <img
+        src="https://i0.wp.com/www.additudemag.com/wp-content/uploads/2016/11/School.3Rs.6_memory_tricks_for_ADHD_students.Article.6605A.illustration_head_question_mark.ts_479747544-3.jpg"
+        width="200" height="125"><br><br>
+
+      <button class="button" role="button"> <a href="#NegativeYes">Both</a> </button>
+      <button class="button" role="button"> <a href="#NegativeMid">Experienced tramatic event and exhibiting dreams and
+          memories</a>
+      </button>
+      <button class="button" role="button"> <a href="#NegativeMid">Difficulty remembering features of a traumatic
+          event</a> </button>
+      <button class="button" role="button"> <a href="#NegativeNo">None</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div id="NegativeYes">
+    <center>
+      <h1>These are many common symptoms of PTSD(Post-Traumatic-Stress-Disorder)</h1>
+      <img src="https://counselling-matters.org.uk/wp-content/uploads/2020/06/post-traumatic-stress-ptsd.jpg"
+        width="200" height="125">
+      <br><br>
+      Post-traumatic stress disorder (PTSD) is a disorder that develops in some people who have experienced a shocking,
+      scary, or dangerous event. It is natural to feel afraid during and after a traumatic situation. Fear is a part of
+      the body's “fight-or-flight” response, which helps us avoid or respond to potential danger.
+
+      <br><br>
+
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="NegativeMid">
+    <center>
+      <h1>These are some common symptoms of PTSD (Post-Traumatic-Stress-Disorder)</h1>
+      <img src="https://counselling-matters.org.uk/wp-content/uploads/2020/06/post-traumatic-stress-ptsd.jpg"
+        width="200">
+
+      <br><br>
+      Post-traumatic stress disorder (PTSD) is a disorder that develops in some people who have experienced a shocking,
+      scary, or dangerous event. It is natural to feel afraid during and after a traumatic situation. Fear is a part of
+      the body's “fight-or-flight” response, which helps us avoid or respond to potential danger.
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="NegativeNo">
+    <center>
+      <h1>No disorders can be confirmed</h1>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+  <div id="Suicide" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>Choose a Symptom</h1>
+      <img
+        src="https://images.ctfassets.net/zkw0qlnf0vqv/psycom_page_fid34608_asset_33874/d31dcbab28237e5d089b31e29e2ed1f7/Sleepless_man"
+        width="200" height="125">
+      <img
+        src="https://getopt.com/wp-content/uploads/2021/11/Unhappy-depressed-caucasian-male-What-Is-Irritable-Male-Syndrome-and-What-Can-You-Do-About-It-ss-feat-768x430-1.jpg"
+        width="200" height="125">
+
+      <br><br>
+      <button class="button" role="button"> <a href="#SuicideYes">Both</a> </button>
+      <button class="button" role="button"> <a href="#SuicideMid">Sleeping issues</a> </button>
+      <button class="button" role="button"> <a href="#SuicideMid">Irritable, difficulty with memory and thinking</a>
+      </button>
+      <button class="button" role="button"> <a href="#SuicideNo">No</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+  <div id="SuicideYes" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>All of the symptoms chosen are common symptoms of Depression </h1>
+      <img src="https://assets.theinnerhour.com/bloguploads/Depression%20causes%20types%20and%20signs1594105476385.jpg"
+        width="200" height="125">
+
+      <br><br>
+      Depression (also known as major depression, major depressive disorder, or clinical depression) is a common but
+      serious mood disorder. It causes severe symptoms that affect how a person feels, thinks, and handles daily
+      activities, such as sleeping, eating, or working.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="SuicideMid" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>Many of the symptoms chosen are common symptoms of Depression </h1>
+      <img src="https://assets.theinnerhour.com/bloguploads/Depression%20causes%20types%20and%20signs1594105476385.jpg"
+        width="200" height="125">
+
+      <br><br>
+
+      Depression (also known as major depression, major depressive disorder, or clinical depression) is a common but
+      serious mood disorder. It causes severe symptoms that affect how a person feels, thinks, and handles daily
+      activities, such as sleeping, eating, or working.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="SuicideNo" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>No disorders can be confirmed</h1>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="sleep" class="step" data-x="0" data-y="-1500" data-z="1500">
+    <center>
+      <h1>Choose a Symptom</h1>
+      <img src="https://cdn-icons-png.flaticon.com/128/9071/9071754.png" width="200" height="125">
+      <img
+        src="https://cliniquebaca.com/wp-content/uploads/2022/08/What-Are-the-Common-Eating-Disorders-Can-I-Get-Treatment-528x675.png"
+        width="200" height="125">
+      <img
+        src="https://media.licdn.com/dms/image/D4D12AQEnDeCUuiQUVA/article-cover_image-shrink_720_1280/0/1679577072812?e=2147483647&v=beta&t=x_WIzMV74jDQxaQKjwLKKSjL1DRI4LKceJ7ZiTl0kis"
+        width="200" height="125">
+      <br><br>
+      <button class="button" role="button"> <a href="#Suicide">Suicidal</a> </button>
+      <button class="button" role="button"> <a href="#Uncomfortable">Uncomfortable eating around others</a> </button>
+      <button class="button" role="button"> <a href="#Mood swings">Mood swings</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+  <div id="Mood swings" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>These are symptoms of Bipolar disorder.</h1>
+      <img
+        src="https://media.istockphoto.com/id/1294477039/vector/metaphor-bipolar-disorder-mind-mental-double-face-split-personality-concept-mood-disorder-2.jpg?s=612x612&w=0&k=20&c=JtBxyFapXIA63hzZk_F5WNDF92J8fD2gIFNX3Ta4U3A="
+        width="200" height="125">
+      <br><br>
+      Bipolar disorder (formerly called manic-depressive illness or manic depression) is a mental illness that causes
+      unusual shifts in a person's mood, energy, activity levels, and concentration. These shifts can make it difficult
+      to carry out day-to-day tasks.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="Uncomfortable" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>Choose a Symptom</h1>
+      <img
+        src="https://www.bannerhealth.com/healthcareblog/-/media/images/project/healthcareblog/hero-images/2022/10/how-your-body-reacts-to-skipping-meals.ashx"
+        width="200" height="125">
+      <br><br>
+      <button class="button" role="button"> <a href="#DietYes">Skipping meals and dieting on purpose (without having
+          to)</a> </button>
+      <button class="button" role="button"> <a href="#DietNo">None</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+  <div id="DietYes" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>All of the symptoms chosen are common symptoms of an Eating Disorder </h1>
+      <img src="https://cdn-icons-png.flaticon.com/512/4357/4357892.png" width="200" height="125">
+      <br><br>
+      Eating disorders are serious health conditions that affect both your physical and mental health. These conditions
+      include problems in how you think about food, eating, weight and shape, and in your eating behaviours. These
+      symptoms can affect your health, your emotions and your ability to function in important areas of life.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="DietNo" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>No disorders can be confirmed</h1>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+  <div id="none" class="step" data-x="0" data-y="-1500" data-z="1500">
+    <center>
+      <h1>Choose a Symptom</h1>
+      <img src="https://www.simplypsychology.org/wp-content/uploads/Symmetry-OCD.jpg" width="200" height="125">
+      <img
+        src="https://th-i.thgim.com/public/incoming/2me44k/article66439191.ece/alternates/LANDSCAPE_1200/CCI_UDHindu_KSL_UIL6BD42I_R1566477768_0_dad4d409-e31b-49cc-89c7-75338e869fd1.jpg"
+        width="200" height="125">
+      <br><br>
+      <button class="button" role="button"> <a href="#Obsessions">Obsessions with keeping everything clean, symmetrical
+          etc.</a>
+      </button>
+      <button class="button" role="button"> <a href="#LiteraryProblems">Problems with literacy</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+  <div id="Obsessions" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>These are some signs of OCD</h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqa3Y8MZwrVbrPr994rYVaxv6osI-nqAgYXA&usqp=CAU"
+        width="200" height="125">
+      <br><br>
+      OCD can also include symptoms like repetitive behaviours like checking random things(e.g. checking doors are
+      locked) or crave over unsymmetrical things.
+      Obsessive-compulsive disorder (OCD) is a long-lasting disorder in which a person experiences uncontrollable and
+      recurring thoughts (obsessions), engages in repetitive behaviours (compulsions), or both. People with OCD have
+      time-consuming symptoms that can cause significant distress or interfere with daily life.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="LiteraryProblems" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>Choose a Symptom</h1>
+      <img src="https://www.ldrfa.org/wp-content/uploads/2021/01/1_p4XP-ez8iptigSzgFp-niw-higheredrevolution.png"
+        width="200" height="125">
+      <img
+        src="https://spectrumnews-web-assets.s3.amazonaws.com/wp-content/uploads/2020/08/12114540/MotorExplainer844.jpg"
+        width="200" height="125">
+      <br><br>
+      <button class="button" role="button"> <a href="#LiterYes">Both</a> </button>
+      <button class="button" role="button"> <a href="#LiterMid">Difficulty with learning or memory</a> </button>
+      <button class="button" role="button"> <a href="#LiterMid">Difficulty with motor skills</a> </button>
+      <button class="button" role="button"> <a href="#LiterNo">None</a> </button>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="LiterYes" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>These are all common symptoms of a Neurodevelopment disorder</h1>
+      <img src="https://girfec.fife.scot/__data/assets/image/0019/441442/Neurodiversity-Disorders.png" width="200"
+        height="125">
+      <br><br>
+      Neurodevelopmental disorders are conditions that affect how your brain functions. They range from mild
+      impairments, allowing those affected to live fairly normal lives, to severe disorders that require lifelong
+      care. Examples of neurodevelopmental disorders include: ADHD, Autism, etc.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div id="LiterMid" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>These are many symptoms of a Neurodevelopment disorder</h1>
+      <img src="https://girfec.fife.scot/__data/assets/image/0019/441442/Neurodiversity-Disorders.png" width="200"
+        height="125">
+      <br><br>
+      Neurodevelopmental disorders are conditions that affect how your brain functions. They range from mild
+      impairments, allowing those affected to live fairly normal lives, to severe disorders that require lifelong
+      care. Examples of neurodevelopmental disorders include: ADHD, Autism, etc.
+      <br><br>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="LiterNo" class="step" data-x="850" data-y="3000" data-z="1000" data-rotate="90">
+    <center>
+      <h1>No disorder can be confirmed :(</h1>
+      <button class="button" role="button"> <a href="#start">Reset</a> </button>
+    </center>
+  </div>
+
+
+
+</body>
+
+</html>
